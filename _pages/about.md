@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is Shing-Ho from Hong Kong. 
+Hi, this is Shing Ho from Hong Kong. 
 I obtained my B.Eng. degree from [*School of Artificial Intelligence, University of Chinese Academy of Sciences (UCAS)*](https://www.ucas.ac.cn) in June 2025. 
 I was a visiting student at the [*Department of Computer Science and Engineering, School of Engineering, Hong Kong University of Science and Technology (HKUST)*](https://cse.hkust.edu.hk/) in 2024.
 
