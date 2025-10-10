@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shing-Ho J. Lin"
+title                    : "Shing Ho J. Lin"
 title_separator          : "-"
 name                     : &name "Shing-Ho J. Lin"
 description              : &description "personal description"
