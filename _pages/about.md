@@ -13,9 +13,7 @@ I was a visiting student at the [*Department of CSE, HKUST*](https://cse.hkust.e
 I'm urrently pursuing the Academic Master’s (MPhil) degree at the [*IVG, Department of Automation, Tsinghua University*](https://ivg.au.tsinghua.edu.cn/), jointly supervised by [Prof. Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm) and [Prof. Jiwen Lu](https://www.au.tsinghua.edu.cn/info/1096/2329.htm).
 
 My interests lie broadly in representation learning, especially geometric deep learning (e.g.: Hyperbolic Geometry, Matrix Manifold), and its wide application in Computer Vision (Spatial Intelligence).
-
-I was funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) as PI of Qiyan Project during my undergraduate study from 2023 to 2025.
-I was the only recipient at UCAS for the *National 2nd Scholarship for Hong Kong, Macao and Overseas Chinese students* (Undergraduate, highest level at UCAS), by [MoE of the PRC](https://www.moe.gov.cn), in 2024.
+I was funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) as PI for the Qiyan Project during my undergrad from 2023 to 2025, as part of its inaugural cohort.
 
 * [2026.07.25] 1 paper on *Geometry of Motion* is on arXiv.
 * [2025.06.05] My Bachelor's Thesis has been selected as *Excellent Bachelor's Thesis* by UCAS (Ranked 2/70). Honoured to have [Prof. Shiming Xiang](https://people.ucas.ac.cn/~xiangshiming) as the Chair of the Defense Committee of my session.
