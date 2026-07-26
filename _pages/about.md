@@ -12,7 +12,7 @@ I was a visiting student at the [*Department of CSE, School of Engineering, HKUS
 
 Currently pursuing the Academic Master’s (MPhil) degree at the [*Institute of Information Processing, Department of Automation, Tsinghua University (THU)*](https://www.au.tsinghua.edu.cn/szdw/jsdw1/ayjscz/xxclyjs.htm), I am under the joint supervision of [Prof. Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm) and [Prof. Jiwen Lu](https://www.au.tsinghua.edu.cn/info/1096/2329.htm).
 
-My interests lie broadly in representation learning, especially geometric deep learning (especially in Hyperbolic Geometry), and its wide application in Spatial Intelligence. 
+My interests lie broadly in representation learning, especially geometric deep learning (especially in Hyperbolic Geometry), and its wide application in Spatial Intelligence.
 
 I was funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) as PI of Qiyan Project during my undergraduate study from 2023 to 2025.
 I was the only recipient at UCAS for the *National 2nd Scholarship for Hong Kong, Macao and Overseas Chinese students* (Undergraduate, highest level at UCAS), by [MoE of the PRC](https://www.moe.gov.cn), in 2024.
