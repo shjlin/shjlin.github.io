@@ -10,7 +10,7 @@ redirect_from:
 I obtained B.Eng. degree from [*School of AI, UCAS*](https://www.ucas.ac.cn) in June 2025. 
 I was a visiting student at the [*Department of CSE, HKUST*](https://cse.hkust.edu.hk/) in 2024.
 
-I'm urrently pursuing the Academic Master’s (MPhil) degree at the [*IVG, Department of Automation, Tsinghua University*](https://ivg.au.tsinghua.edu.cn/), jointly supervised by [Prof. Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm) and [Prof. Jiwen Lu](https://www.au.tsinghua.edu.cn/info/1096/2329.htm).
+I'm currently pursuing the Academic Master’s (MPhil) degree at the [*IVG, Department of Automation, Tsinghua University*](https://ivg.au.tsinghua.edu.cn/), jointly supervised by [Prof. Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm) and [Prof. Jiwen Lu](https://www.au.tsinghua.edu.cn/info/1096/2329.htm).
 
 My interests lie broadly in representation learning, especially geometric deep learning (e.g.: Hyperbolic Geometry, Matrix Manifold), and its wide application in Computer Vision (Spatial Intelligence).
 I was funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) as PI for the Qiyan Project during my undergrad from 2023 to 2025, as part of its inaugural cohort.
