@@ -15,7 +15,7 @@ I'm currently pursuing the Academic Master’s (MPhil) degree at the [*IVG, Depa
 My interests lie broadly in representation learning, especially geometric deep learning (e.g.: Hyperbolic Geometry, Matrix Manifold), and its wide application in Computer Vision (Spatial Intelligence).
 I was funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) as PI for the Qiyan Project during my undergrad from 2023 to 2025, as part of its inaugural cohort.
 
-* [2026.07.25] 1 paper on *Geometry of Motion* is on arXiv.
+* [2026.07.25] 1 paper on *Geometry of Motion* is on [arXiv](https://arxiv.org/pdf/2607.22534v1).
 * [2025.06.05] My Bachelor's Thesis has been selected as *Excellent Bachelor's Thesis* by UCAS (Ranked 2/70). Honoured to have [Prof. Shiming Xiang](https://people.ucas.ac.cn/~xiangshiming) as the Chair of the Defense Committee of my session.
 * [2025.04.29] 1 paper had been accepted by IJCAI-25 (CCF-A, Acceptance Rate: 19.3%)
 * [2024.12.10] 1 paper had been accepted by AAAI-25 (*Oral*) (CCF-A, Acceptance Rate: 23.4%)
