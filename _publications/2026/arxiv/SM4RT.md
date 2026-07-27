@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026/arXiv/SM4RT
 excerpt: ''
-date: 2025-07-27
+date: 2026-07-27
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/pdf/2607.22534v1'
 citation: 'S.-H. J. Lin, W. Zheng, D. Zhuo, Y. Wu, J. Zhou, J. Lu, "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction," in arXiv preprint 2607.22534, 2026.'
