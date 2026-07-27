@@ -22,8 +22,8 @@ Work experience
   * Supervisor: Xian Wei, Research Professor
 
 * 2023.12 - 2025.04: Principal Investigator
-  * Supported by the School of Artificial Intelligence, University of Chinese Academy of Sciences.
-  * Also worked with the State Key Laboratory of Multimodal Artificial Intelligence Systems, Institute of Automation, Chinese Academy of Sciences.
+  * At the School of AI, UCAS.
+  * Also worked with the State Key Lab of MAIS, CASIA.
   * Funded by Beijing Natural Science Foundation (BJNSF)
 
 Honors
@@ -31,7 +31,7 @@ Honors
 * 2025.06 *Excellent Bachelor's Thesis*
   * Awarded by **University of Chinese Academy of Sciences**
   * Top <10%
-* 2024.10 *National 2nd Scholarship for Hong Kong, Macao and Overseas Chinese students*
+* 2024.10 *National 2nd Scholarship for HK, MO and OC students*
   * Awarded by **Ministry of Education of the People’s Republic of China**
   * First in UCAS to receive, highest level
 
