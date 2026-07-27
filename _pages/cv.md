@@ -12,13 +12,13 @@ redirect_from:
 Education
 ======
 * 2025.09 - 2028.06, **Master Student** in Department of Automation, Tsinghua University.
-* 2021.09 - 2025.06, **Undergrad Student** in the School of Artificial Intelligence, University of Chinese Academy of Sciences.
-* 2024.01 - 2024.06, **Visiting Student** in Department of Computer Science and Engineering, Hong Kong University of Science and Technology.
+* 2021.09 - 2025.06, **Undergrad Student** in the School of AI, University of Chinese Academy of Sciences.
+* 2024.01 - 2024.06, **Visiting Student** in Department of CSE, The Hong Kong University of Science and Technology.
 
 Work experience
 ======
-* 2022.07 - 2024.08: Research Assistant
-  * Software Engineering Institute, East China Normal University
+* 2022.07 - 2024.08: Research Assistant (Part-time, Remote)
+  * SEI, ECNU
   * Supervisor: Xian Wei, Research Professor
 
 * 2023.12 - 2025.04: Principal Investigator
@@ -32,7 +32,7 @@ Honors
   * Awarded by **University of Chinese Academy of Sciences**
   * Top <10%
 * 2024.10 *National 2nd Scholarship for HK, MO and OC students*
-  * Awarded by **Ministry of Education of the People’s Republic of China**
+  * Awarded by **MoE of the PRC**
   * First in UCAS to receive, highest level
 
 Publications
