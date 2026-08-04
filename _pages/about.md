@@ -18,8 +18,7 @@ From 2023 to 2025, I was the PI of a project funded by the [*Beijing NSF*](https
 
 ## 🔥 Highlights
 
-- **[2026.07.25]** [*Geometry of Motion*](https://arxiv.org/pdf/2607.22534v1) on arXiv | [[Project Page]](https://wzzheng.net/SM4RT)  
-  ![](https://img.shields.io/github/stars/wzzheng/SM4RT?style=social&label=Star)
+- **[2026.07.25]** [*Geometry of Motion*](https://arxiv.org/pdf/2607.22534v1) on arXiv | [[Project Page]](https://wzzheng.net/SM4RT) ![](https://img.shields.io/github/stars/wzzheng/SM4RT?style=social&label=Star)
 
 - **[2025.06.05]** Bachelor's thesis selected as **Excellent Bachelor's Thesis** at UCAS (Ranked 2/70).  
   Grateful to [Prof. Shiming Xiang](https://people.ucas.ac.cn/~xiangshiming) for chairing my defense committee.
