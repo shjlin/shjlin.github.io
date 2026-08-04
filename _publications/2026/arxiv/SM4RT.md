@@ -10,12 +10,24 @@ paperurl: 'https://arxiv.org/pdf/2607.22534v1'
 citation: 'S.-H. J. Lin, W. Zheng, D. Zhuo, Y. Wu, J. Zhou, J. Lu, "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction," in arXiv preprint 2607.22534, 2026.'
 ---
 
-Geometry Foundation Models (GFMs) have substantially advanced monocular 3D reconstruction, yet extending this capability to 4D dynamic understanding remains a fundamental challenge.
-Most existing motion perception methods (e.g., sparse tracking, dense point-wise flow) treat motion as independent point-wise displacements, ignoring the structured nature of physical motion.
-However, real-world objects usually obey rigid-body kinematics, and points thus usually move collectively, not in isolation.
-Motion itself possesses geometric structure: physical objects undergo a set of rigid-body transformations governed by $\mathrm{SE}(3)$, rather than unstructured point-wise displacements.
-Building on this insight, we propose \textbf{SM4RT}, a \textbf{S}tructured \textbf{M}otion \textbf{4}D \textbf{R}econstruction \textbf{T}ransformer for end-to-end 3D reconstruction and structured motion perception.
-SM4RT introduces \textit{Structure-of-Motion} (SoM) to represent scene dynamics, where scene motion is decomposed into a compact set of motion bases, each represented as a temporal sequence of 6D twists in $\mathfrak{se}(3)$.
-Dense scene motion is then recovered by sparse, time-shared per-pixel assignment weights over these bases, ensuring points on the same object share a common rigid-body motion trajectory.
-SM4RT introduces a parallel motion geometry encoder and decoder that jointly infer 3D geometry, world-coordinate motion, and scene kinematic structure in a single forward pass from monocular RGB video. 
-SM4RT achieves strong motion reconstruction performance while preserving the geometric structure of scene motion. 
+<div align="center">
+
+<div>
+    <a href='https://shjlin.github.io/'  target='_blank'>Shing Ho J. Lin*</a>&emsp;
+    <a href='https://wzzheng.net/' target='_blank'>Wenzhao Zheng*<sup>,</sup>†</a>&emsp;
+    <a href="https://scholar.google.com/citations?user=0OakHQ0AAAAJ&hl=en" target='_blank'>Dong Zhuo*</a>&emsp;
+    <a href="https://ykiwu.github.io/" target='_blank'>Yuqi Wu</a>
+    <br>
+    <a href="https://scholar.google.com/citations?user=6a79aPwAAAAJ&hl=en" target='_blank'>Jie Zhou</a>&emsp;
+    <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/" target='_blank'>Jiwen Lu</a>&emsp;
+    <br>
+    <small>* Equal contribution &emsp; † Project Leader</small>
+</div>
+<div>
+    Intelligent Vision Group, Tsinghua University&emsp; 
+</div>
+</div>
+
+<strong>SM4RT decomposes scene motion into structured latent bases, enabling structured and parsimonious motion percetion.</strong>
+
+![Architecture of HPR](../../../images/2026_arXiv_SM4RT_Teaser.png)
