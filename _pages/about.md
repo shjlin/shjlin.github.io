@@ -11,8 +11,9 @@ I received my B.Eng. from the [*School of AI, UCAS*](https://www.ucas.ac.cn) in 
 
 I am currently pursuing an MPhil at the [*IVG, Department of Automation, Tsinghua University*](https://ivg.au.tsinghua.edu.cn/), co-supervised by [Prof. Jie Zhou](https://www.au.tsinghua.edu.cn/info/1084/1699.htm) and [Prof. Jiwen Lu](https://www.au.tsinghua.edu.cn/info/1096/2329.htm).
 
-My research focuses on **representation learning**, with a particular interest in **geometric deep learning** (e.g., hyperbolic geometry and matrix manifolds) and its applications in **computer vision** and **spatial intelligence**.  
-From 2023 to 2025, I was the PI of a project funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) Qiyan Program, as a member of its inaugural cohort.
+My research focuses on **representation learning**, with a particular interest in **geometric deep learning** (e.g., hyperbolic geometry and matrix manifolds) and its applications in **computer vision** and **spatial intelligence**. 
+ 
+During my undergrad, from 2023 to 2025, I was the PI of a project funded by the [*Beijing NSF*](https://nsf.kw.beijing.gov.cn/bjnsfweb/) Qiyan Program, as a part of its inaugural cohort.
 
 ---
 
