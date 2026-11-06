@@ -675,6 +675,7 @@ html[lang^="zh"] .pub-impact { font-size: 12px; }
   font-family: var(--font-mono); font-size: 11px; letter-spacing: .05em;
   color: var(--footer-ink-2); margin-bottom: 1.7rem;
 }
+.footer-note.footer-tease { margin-top: -.9rem; margin-bottom: 1.7rem; }
 html[lang^="zh"] .footer-note { font-size: 12px; }
 .footer-title em { color: var(--accent-deep); }
 .chip-footer { background: transparent; border-color: var(--footer-hair); color: var(--footer-ink-2); }
