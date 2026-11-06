@@ -107,7 +107,7 @@ window.I18N = {
     "footer.title": "This Shing gives out no Huawei watches; currently accepting emails only.",
     "footer.disclaimer": "Similarity check passed: the only overlap with Prof. Shing-Tung Yau is \"Shing\" (5 characters), properly cited.",
     "footer.langlabel": "Languages",
-    "footer.langs": "中文 · 粵語 · 福州話 · English · Deutsch&nbsp;<span class=\"lang-level\">(entry)</span>",
+    "footer.langs": "中文 · 粵語 · 福州話 · English (RP) · Deutsch&nbsp;<span class=\"lang-level\">(entry)</span>",
     "footer.credit": "Handcrafted with plain HTML & CSS; no template harmed.",
     "footer.top": "Back to top ↑",
     "chip.copied": "Copied ✓"
@@ -213,7 +213,7 @@ window.I18N = {
     "footer.title": "本 Shing 唔派華為手錶，而家淨係收電郵。",
     "footer.disclaimer": "本站已通過查重：與丘成桐教授重複部分僅為 \"Shing\"（5 字符），已規範引用。",
     "footer.langlabel": "語言",
-    "footer.langs": "中文（普通話）· 粵語 · 福州話（閩東語）· 英語 · 德語&nbsp;<span class=\"lang-level\">（初級）</span>",
+    "footer.langs": "中文（普通話）· 粵語 · 福州話（閩東語）· 英語（RP）· 德語&nbsp;<span class=\"lang-level\">（初級）</span>",
     "footer.credit": "以純 HTML 與 CSS 手工打造，沒有模板受到傷害。",
     "footer.top": "回到頂部 ↑",
     "chip.copied": "已複製 ✓"
@@ -319,7 +319,7 @@ window.I18N = {
     "footer.title": "本 Shing 不发华为手表，目前只收邮件。",
     "footer.disclaimer": "本站已通过查重：与丘成桐教授重复部分仅为 \"Shing\"（5 字符），已规范引用。",
     "footer.langlabel": "语言",
-    "footer.langs": "中文（普通话）· 粤语 · 福州话（闽东语）· 英语 · 德语&nbsp;<span class=\"lang-level\">（初级）</span>",
+    "footer.langs": "中文（普通话）· 粤语 · 福州话（闽东语）· 英语（RP）· 德语&nbsp;<span class=\"lang-level\">（初级）</span>",
     "footer.credit": "以纯 HTML 与 CSS 手工打造，没有模板受到伤害。",
     "footer.top": "回到顶部 ↑",
     "chip.copied": "已复制 ✓"
