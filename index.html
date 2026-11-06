@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shing Ho J. Lin · Geometric Learning &amp; Vision</title>
+  <meta name="description" content="Shing Ho J. Lin, M.Sc.Eng. candidate at Tsinghua IVG. Researching representation learning, geometric deep learning and spatial intelligence.">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="Shing Ho J. Lin · Geometric Learning & Vision">
+  <meta property="og:description" content="M.Sc.Eng. candidate at Tsinghua IVG. Representation learning · geometric deep learning · spatial intelligence.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>/* set language before first paint */
+  try {
+    var p = localStorage.getItem('lang');
+    if (p === 'en' || p === 'zh-HK' || p === 'zh-CN') document.documentElement.lang = p;
+    else { var n = (navigator.language || '').toLowerCase();
+      if (n.indexOf('zh') === 0) document.documentElement.lang = (n.indexOf('cn') > -1 || n.indexOf('sg') > -1) ? 'zh-CN' : 'zh-HK'; }
+  } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shing Ho J. Lin",
+    "email": "mailto:linchenghao21@mails.ucas.ac.cn",
+    "affiliation": { "@type": "Organization", "name": "Tsinghua University, Department of Automation" },
+    "url": "https://shjlin.github.io",
+    "sameAs": [
+      "https://github.com/shjlin",
+      "https://orcid.org/0000-0003-4888-192X"
+    ]
+  }
+  </script>
+  <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a class="wordmark" href="#top" aria-label="Back to top">Shing Ho <span class="wordmark-dot">J.</span> Lin</a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#home" data-i18n="nav.about">About</a>
+        <a href="#pubs" data-i18n="nav.pubs">Publications</a>
+        <a href="#wp" data-i18n="nav.wp">Working Papers</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#journey" data-i18n="nav.journey">Journey</a>
+        <a href="#honors" data-i18n="nav.honors">Honors</a>
+        <a href="#service" data-i18n="nav.service">Service</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Language / 語言 / 语言">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="zh-HK">繁</button>
+          <button type="button" data-lang="zh-CN">简</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5.2 5.2l1.7 1.7M17.1 17.1l1.7 1.7M18.8 5.2l-1.7 1.7M6.9 17.1l-1.7 1.7"/></svg>
+          <svg class="icon-moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.4 13.2A8.3 8.3 0 1 1 10.8 3.6a6.9 6.9 0 0 0 9.6 9.6Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HOME / ABOUT ============ -->
+    <section id="home" class="hero tab-panel active">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="kicker"><span class="kicker-dot" aria-hidden="true"></span><span data-i18n="hero.kicker">M.Sc.Eng. Candidate · Control Science &amp; Engineering · Tsinghua IVG</span></p>
+          <h1 class="hero-name">Shing Ho <em>J.</em>&hairsp;Lin</h1>
+          <p class="hero-line" data-i18n-html="hero.line">I study how <em>geometry</em> shapes representation learning,
+            from hyperbolic spaces and matrix manifolds to 4D vision and spatial intelligence.</p>
+          <p class="hero-bio" data-i18n-html="hero.bio">
+            I am an <strong>M.Sc.Eng. candidate in Control Science and Engineering, specializing in Pattern Recognition and Intelligent Systems</strong> (academic-track, comparable to an MPhil) at the
+            <a href="https://ivg.au.tsinghua.edu.cn/" target="_blank" rel="noopener">Intelligent Vision Group</a>,
+            Department of Automation, <a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noopener">Tsinghua University</a>,
+            co-supervised by <a href="https://www.au.tsinghua.edu.cn/info/1084/1699.htm" target="_blank" rel="noopener">Prof. Jie Zhou</a>
+            and <a href="https://www.au.tsinghua.edu.cn/info/1096/2329.htm" target="_blank" rel="noopener">Prof. Jiwen Lu</a>.
+            Before that, I received my <strong>B.Eng. in Artificial Intelligence</strong> from the
+            <a href="https://www.ucas.ac.cn" target="_blank" rel="noopener">School of AI, UCAS</a> (2025)
+            and visited <a href="https://cse.hkust.edu.hk/" target="_blank" rel="noopener">CSE @ HKUST</a> (2024).
+            I was fortunate to have <a href="https://www.ia.cas.cn/rcdw/jcqn/202404/t20240425_7131770.html" target="_blank" rel="noopener">Prof. Cheng-Lin Liu</a> as my academic supervisor during undergrad,
+            and served as <strong>PI</strong> of a <a href="https://nsf.kw.beijing.gov.cn/bjnsfweb/" target="_blank" rel="noopener">Beijing NSF</a>
+            Qiyan project (2023–2025) in its inaugural cohort.
+          </p>
+          <div class="hero-links">
+            <button class="chip chip-mail" type="button" data-copy="linchenghao21@mails.ucas.ac.cn">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+              <span class="chip-text">linchenghao21 [at] mails.ucas.ac.cn</span><span class="chip-copied">Copied ✓</span>
+            </button>
+            <a class="chip" href="https://scholar.google.com/citations?user=4zUfmB8AAAAJ" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2.5 9.2 9.5-4.7 9.5 4.7-9.5 4.7-9.5-4.7Z"/><path d="M6.4 11.2v4.5c0 1.2 2.5 2.6 5.6 2.6s5.6-1.4 5.6-2.6v-4.5M21.5 9.2v5.2"/></svg>
+              Scholar
+            </a>
+            <a class="chip" href="https://github.com/shjlin" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.84c.56.1.76-.24.76-.54v-1.9c-3.11.68-3.77-1.5-3.77-1.5-.5-1.3-1.24-1.64-1.24-1.64-1.01-.7.08-.68.08-.68 1.12.08 1.7 1.15 1.7 1.15.99 1.7 2.6 1.21 3.24.93.1-.72.39-1.21.7-1.49-2.46-.28-5.05-1.23-5.05-5.5 0-1.22.43-2.21 1.14-2.99-.12-.28-.5-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.5 10.5 0 0 1 5.58 0c2.11-1.44 3.04-1.14 3.04-1.14.61 1.53.23 2.66.12 2.94.7.78 1.13 1.77 1.13 2.99 0 4.28-2.6 5.22-5.07 5.49.4.35.75 1.03.75 2.07v3.07c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+              GitHub
+            </a>
+            <a class="chip" href="https://orcid.org/0000-0003-4888-192X" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.5" fill="#A6CE39"/><circle cx="8.4" cy="9.2" r="1.15" fill="#fff"/><path d="M7.3 11.4h2.2v6.5H7.3zM11.1 11.4h2.2v1c.45-.75 1.3-1.22 2.3-1.22 1.9 0 2.9 1.2 2.9 3.4v3.32h-2.2v-2.98c0-1.1-.42-1.72-1.28-1.72-.86 0-1.5.6-1.5 1.74v2.96h-2.4Z" fill="#fff"/></svg>
+              ORCID
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal" style="--d:.15s">
+          <div class="portrait-wrap">
+            <svg class="portrait-rings" viewBox="0 0 400 400" aria-hidden="true">
+              <g fill="none">
+                <circle class="ring ring-1" cx="200" cy="200" r="196" stroke-width="1" stroke-dasharray="3 7"/>
+                <circle class="ring ring-2" cx="200" cy="200" r="158" stroke-width="1"/>
+                <circle class="ring ring-3" cx="200" cy="200" r="120" stroke-width="1" stroke-dasharray="1 6"/>
+                <path class="ring arc-a" d="M 200 4 A 196 196 0 0 1 357.5 262.5" stroke-width="2"/>
+                <path class="ring arc-b" d="M 42.5 137.5 A 158 158 0 0 0 42.5 262.5" stroke-width="2"/>
+                <circle class="ring-dot" cx="357.5" cy="262.5" r="4.5" fill="currentColor" stroke="none"/>
+                <circle class="ring-dot" cx="42.5" cy="137.5" r="3.5" fill="currentColor" stroke="none"/>
+                <circle class="ring-dot" cx="200" cy="42" r="3" fill="currentColor" stroke="none"/>
+              </g>
+            </svg>
+            <div class="portrait-frame" aria-hidden="true"></div>
+            <img class="portrait" src="images/profile.png" alt="Portrait of Shing Ho J. Lin" width="440" height="550">
+            <div class="portrait-card">
+              <span class="portrait-card-dot" aria-hidden="true"></span>
+              <span data-i18n="hero.card">IVG · Dept. of Automation · Tsinghua</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span class="marquee-set" data-i18n-html="marquee.set">
+            Hyperbolic Geometry<i>◇</i>Geometric Deep Learning<i>◇</i>Representation Learning<i>◇</i>Equivariance<i>◇</i>4D Reconstruction<i>◇</i>Spatial Intelligence<i>◇</i>Matrix Manifolds<i>◇</i>Point Clouds<i>◇</i>Few-Shot Learning
+          </span>
+          <span class="marquee-set" data-i18n-html="marquee.set">
+            Hyperbolic Geometry<i>◇</i>Geometric Deep Learning<i>◇</i>Representation Learning<i>◇</i>Equivariance<i>◇</i>4D Reconstruction<i>◇</i>Spatial Intelligence<i>◇</i>Matrix Manifolds<i>◇</i>Point Clouds<i>◇</i>Few-Shot Learning
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NEWS + PUBLICATIONS ============ -->
+    <section id="pubs" class="section section-alt tab-panel">
+      <div class="container stack-gap">
+        <header class="section-head reveal">
+          <span class="section-no">01</span>
+          <h2 data-i18n="news.title">News</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <ol class="news-list">
+          <li class="news-item reveal">
+            <span class="news-date">2026 · 07</span>
+            <p class="news-text" data-i18n-html="news.1"><span class="tag tag-arxiv">arXiv</span>
+              New on arXiv: <a href="https://arxiv.org/abs/2607.22534" target="_blank" rel="noopener"><em>SM4RT</em></a> (“Feedforward Geometry of Motion” paradigm), structured motion geometry for 4D reconstruction.
+              <a class="news-sub" href="https://wzzheng.net/SM4RT" target="_blank" rel="noopener">Project page ↗</a>
+              <img class="gh-stars" src="https://img.shields.io/github/stars/wzzheng/SM4RT?style=social&label=Star" alt="GitHub stars of wzzheng/SM4RT" loading="lazy" height="20"></p>
+          </li>
+          <li class="news-item reveal">
+            <span class="news-date">2025 · 06</span>
+            <p class="news-text" data-i18n-html="news.2"><span class="tag tag-award">Award</span>
+              Bachelor's thesis selected as <strong>Excellent Bachelor's Thesis</strong> at UCAS, ranked 2 / 70.</p>
+          </li>
+          <li class="news-item reveal">
+            <span class="news-date">2025 · 04</span>
+            <p class="news-text" data-i18n-html="news.3"><span class="tag tag-conf">Accept</span>
+              One paper accepted to <strong>IJCAI 2025</strong> (CCF-A · 19.3% acceptance rate).</p>
+          </li>
+          <li class="news-item reveal">
+            <span class="news-date">2024 · 12</span>
+            <p class="news-text" data-i18n-html="news.4"><span class="tag tag-conf tag-solid">Oral</span>
+              One paper accepted to <strong>AAAI 2025</strong> as <strong>Oral</strong> (CCF-A · 23.4% acceptance rate).</p>
+          </li>
+          <li class="news-item reveal">
+            <span class="news-date">2024 · 09</span>
+            <p class="news-text" data-i18n-html="news.5"><span class="tag tag-journal">Journal</span>
+              One paper accepted to <strong>Pattern Recognition</strong> (CAS Tier-1 · IF 7.5).
+              <img class="gh-stars" src="https://img.shields.io/badge/Citations-16-blue" alt="Citations" loading="lazy" height="20"></p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-no">02</span>
+          <h2 data-i18n="pubs.title">Selected Publications</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <p class="pub-note reveal" data-i18n-html="pubs.note">* equal contribution · <span class="me-inline">Shing Ho J. Lin</span> is me</p>
+
+        <ol class="pub-list">
+
+          <li class="pub-card featured reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-badge badge-preprint">Preprint</span>
+            </div>
+            <div class="pub-body">
+              <p class="pub-flag"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9L12 2.6z"/></svg><span data-i18n="pub.flag">New Paradigm</span></p>
+              <h3 class="pub-title">SM4RT: Learning Structured Motion Geometry for 4D Reconstruction</h3>
+              <p class="pub-authors">
+                <span class="me">Shing Ho J. Lin</span><sup>*</sup>, Wenzhao Zheng<sup>*</sup><sup>†</sup>,
+                Dong Zhuo<sup>*</sup>, Yuqi Wu, Jie Zhou, Jiwen Lu
+              </p>
+              <p class="pub-note-line" data-i18n="pub.n1.note">Humans read motion from sparse kinematic cues at the level of objects and parts; displacements are never isolated either: each is constrained to a valid rigid-body motion, a geometry known as a fiber bundle. Decomposed fully feed-forward into structured latent bases for parsimonious, interpretable 4D perception.</p>
+              <p class="pub-impact" data-i18n-html="pub.n1.impact"><b class="imp-label">Follow-up</b> · <strong>United Imaging Healthcare</strong>'s endoscopic 4D foundation model <a href="https://arxiv.org/abs/2610.02343" target="_blank" rel="noopener">SCOPE-4D</a> is built upon this work; <a href="https://arxiv.org/abs/2609.32596" target="_blank" rel="noopener">GAUGE</a> integrates a new module into SM4RT, further improving its performance.</p>
+              <figure class="pub-figure">
+                <img src="images/pub-sm4rt.jpg" alt="SM4RT teaser: structured motion geometry for 4D reconstruction" loading="lazy" width="1600" height="836">
+              </figure>
+              <div class="pub-links">
+                <a class="mini-link" href="https://arxiv.org/abs/2607.22534" target="_blank" rel="noopener">arXiv<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+                <a class="mini-link" href="https://wzzheng.net/SM4RT" target="_blank" rel="noopener"><span data-i18n="pub.link.project">Project</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              </div>
+              <details class="pub-abs">
+                <summary data-i18n="abs.label">Abstract</summary>
+                <div><p>SM4RT decomposes scene motion into structured latent bases, enabling structured and parsimonious motion perception for 4D reconstruction.</p></div>
+              </details>
+              <details class="pub-abs pub-bib">
+                <summary>BibTeX</summary>
+                <pre>@article{lin2026sm4rt,
+  title={SM4RT: Learning Structured Motion Geometry for 4D Reconstruction},
+  author={Lin, Shing Ho J. and Zheng, Wenzhao and Zhuo, Dong and Wu, Yuqi and Zhou, Jie and Lu, Jiwen},
+  journal={arXiv preprint arXiv:2607.22534},
+  year={2026}
+}</pre>
+              </details>
+            </div>
+          </li>
+
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-badge badge-book" data-i18n="pub.book.badge">Book · Forthcoming</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title" data-i18n="pub.book.title">Optimization Algorithms on Matrix Manifolds (Chinese translation)</h3>
+              <p class="pub-authors" data-i18n-html="pub.book.translators">Translated by Xian Wei (ECNU), Hao Shen (TU Munich), <span class="me">Shing Ho J. Lin</span> (UCAS)</p>
+              <p class="pub-note-line" data-i18n-html="pub.book.info">Original by P.-A. Absil, R. Mahony &amp; R. Sepulchre · Princeton University Press, 2008<br>Chinese edition: China Machine Press, 2026 (forthcoming)</p>
+              <figure class="pub-figure pub-cover">
+                <img src="images/pub-book-cover.jpg" alt="Optimization Algorithms on Matrix Manifolds cover" loading="lazy" width="410" height="622">
+              </figure>
+            </div>
+          </li>
+
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2025</span>
+              <span class="pub-badge badge-conf">IJCAI · CCF-A</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title">PDDFormer: Pairwise Distance Distribution Graph Transformer for Crystal Material Property Prediction</h3>
+              <p class="pub-authors">Xiangxiang Shen, Zheng Wan, Lingfeng Wen, Licheng Sun, Jian Yang, Xuan Tang, <span class="me">Shing-Ho J. Lin</span>, Xiao He, Mingsong Chen, Xian Wei</p>
+              <p class="pub-note-line" data-i18n="pub.n2.note">Thermal vibrations break the translational symmetry of lattices; atom-weighted and unit-cell PDD descriptors keep crystal graphs continuous under perturbation.</p>
+              <p class="pub-impact" data-i18n-html="pub.n2.impact"><b class="imp-label">Follow-up</b> · cited by the ACM Computing Surveys survey <a href="https://dl.acm.org/doi/10.1145/3794853" target="_blank" rel="noopener"><i>Crystalline material discovery in the era of artificial intelligence</i></a>.</p>
+              <figure class="pub-figure">
+                <img src="images/pub-pddformer.jpg" alt="PDDFormer and WPDDFormer architecture" loading="lazy" width="1537" height="632">
+              </figure>
+              <div class="pub-links">
+                <a class="mini-link" href="https://ijcai.org/proceedings/2025/859" target="_blank" rel="noopener">IJCAI Proceedings<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              </div>
+              <details class="pub-abs">
+                <summary data-i18n="abs.label">Abstract</summary>
+                <div><p>Crystal structures can be simplified as a periodic point set that repeats across three-dimensional space along an underlying lattice. Traditionally, crystal representation methods rely on descriptors such as lattice parameters, symmetry, and space groups to characterize the structure. However, atoms in materials always vibrate above absolute zero, causing their positions to fluctuate continuously, disrupting lattice periodicity and making conventional descriptors discontinuous under slight perturbations. We introduce atom-weighted Pairwise Distance Distribution (WPDD) and Unit-cell PDD (UPDD) for the first time, applying them to construct multi-edge crystal graphs. We demonstrate the continuity and general completeness of these graphs under slight atomic position perturbations, and by modeling PDD as global information within matrix-based message passing we significantly reduce computational cost. WPDDFormer achieves state-of-the-art predictive accuracy across tasks on benchmark datasets such as the Materials Project and JARVIS-DFT.</p></div>
+              </details>
+              <details class="pub-abs pub-bib">
+                <summary>BibTeX</summary>
+                <pre>@inproceedings{shen2025pddformer,
+  title={PDDFormer: Pairwise Distance Distribution Graph Transformer for Crystal Material Property Prediction},
+  author={Shen, Xiangxiang and Wan, Zheng and Wen, Lingfeng and Sun, Licheng and Yang, Jian and Tang, Xuan and Lin, Shing-Ho J. and He, Xiao and Chen, Mingsong and Wei, Xian},
+  booktitle={Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence, IJCAI-25},
+  year={2025}
+}</pre>
+              </details>
+            </div>
+          </li>
+
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2025</span>
+              <span class="pub-badge badge-conf badge-solid">AAAI · Oral</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title">Relaxed Rotational Equivariance via G-Biases in Vision</h3>
+              <p class="pub-authors">Z. Wu, Y. Liu, L. Sun, J. Yang, H. Dong, <span class="me">Shing Ho J. Lin</span>, X. Tang, J. Mi, B. Jin, X. Wei</p>
+              <p class="pub-note-line" data-i18n="pub.n3.note">Symmetry breaking is a cornerstone of physics and the norm of real vision. Learnable G-Biases relax strict group constraints so equivariant networks can face reality.</p>
+              <p class="pub-impact" data-i18n-html="pub.n3.impact"><b class="imp-label">Follow-up</b> · the idea is further elaborated in the ICLR 2026 paper <a href="https://openreview.net/forum?id=ncOJYFcleS" target="_blank" rel="noopener"><i>Achieving approximate symmetry is exponentially easier than exact symmetry</i></a>.</p>
+              <figure class="pub-figure">
+                <img src="images/pub-rrenet.jpg" alt="RRENet architecture with learnable G-Biases" loading="lazy" width="1235" height="584">
+              </figure>
+              <div class="pub-links">
+                <a class="mini-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/32922" target="_blank" rel="noopener">AAAI Proceedings<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              </div>
+              <details class="pub-abs">
+                <summary data-i18n="abs.label">Abstract</summary>
+                <div><p>Group Equivariant Convolution (GConv) assumes uniform and strict rotational equivariance across all features. However, real-world data rarely conforms to strict rotational equivariance, a phenomenon known as Rotational Symmetry-Breaking (RSB). We propose a simple yet highly effective method that utilizes a set of learnable biases called G-Biases under the group order to break strict group constraints, achieving Relaxed Rotational Equivariant Convolution (RREConv). Extensive experiments on the discrete rotational group C<sub>n</sub> show that RREConv-based methods outperform existing GConv-based methods in both classification and 2D object detection on natural image datasets.</p></div>
+              </details>
+              <details class="pub-abs pub-bib">
+                <summary>BibTeX</summary>
+                <pre>@inproceedings{wu2025rreconv,
+  title={Relaxed Rotational Equivariance via G-Biases in Vision},
+  author={Wu, Z. and Liu, Y. and Sun, L. and Yang, J. and Dong, H. and Lin, Shing-Ho J. and Tang, X. and Mi, J. and Jin, B. and Wei, X.},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  year={2025}
+}</pre>
+              </details>
+            </div>
+          </li>
+
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2025</span>
+              <span class="pub-badge badge-journal">Pattern Recognition</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title">Hyperbolic Prototype Rectification for Few-Shot 3D Point Cloud Classification</h3>
+              <p class="pub-authors">Y.-Z. Feng<sup>*</sup>, <span class="me">Shing Ho J. Lin</span><sup>*</sup>, X. Tang, M.-Y. Wang, J.-Z. Zheng, Z.-Y. He, Z.-Y. Pang, J. Yang, M.-S. Chen, X. Wei</p>
+              <p class="pub-note-line" data-i18n="pub.n4.note">Point-cloud categories form hierarchies that Euclidean features cannot capture; hyperbolic prototypes encode that structure, rectifying few-shot 3D classification without a single extra parameter.</p>
+              <p class="pub-impact" data-i18n-html="pub.n4.impact"><b class="imp-label">Follow-up</b> · cited by the ACM Computing Surveys survey <a href="https://dl.acm.org/doi/10.1145/3790093" target="_blank" rel="noopener"><i>Few-shot learning in video and 3D object detection: a survey</i></a>.</p>
+              <figure class="pub-figure">
+                <img src="images/pub-hpr.jpg" alt="Architecture of Hyperbolic Prototype Rectification (HPR)" loading="lazy" width="1600" height="533">
+              </figure>
+              <div class="pub-links">
+                <a class="mini-link" href="https://doi.org/10.1016/j.patcog.2024.111042" target="_blank" rel="noopener">DOI<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+                <a class="mini-link" href="https://github.com/Jonathan-UCAS/HPR" target="_blank" rel="noopener"><span data-i18n="pub.link.code">Code</span><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              </div>
+              <details class="pub-abs">
+                <summary data-i18n="abs.label">Abstract</summary>
+                <div><p>Few-shot point cloud classification is a challenging task in 3D computer vision. Most deep learning models rely heavily on Euclidean spatial metrics, yet point cloud objects often exhibit complex non-Euclidean geometric structures with underlying inter/intra-class hierarchies that Euclidean models fail to capture. We propose Hyperbolic Prototype Rectification (HPR): point clouds are embedded into hyperbolic space to better describe hierarchical similarity relationships, and hyperbolic spatial and distributional information rectify prototypes without requiring extra learnable parameters. On real-world ScanObjectNN(-PB) datasets, average classification accuracy outperforms the SOTA method by 2.08% (0.66%), demonstrating strong generalization and robustness against perturbed data.</p></div>
+              </details>
+              <details class="pub-abs pub-bib">
+                <summary>BibTeX</summary>
+                <pre>@article{feng2025hyperbolic,
+  title={Hyperbolic prototype rectification for few-shot 3D point cloud classification},
+  author={Feng, Y.-Z. and Lin, S.-H. J. and Tang, X. and Wang, M.-Y. and Zheng, J.-Z. and He, Z.-Y. and Pang, Z.-Y. and Yang, J. and Chen, M.-S. and Wei, X.},
+  journal={Pattern Recognition},
+  volume={158},
+  pages={111042},
+  year={2025},
+  publisher={Elsevier}
+}</pre>
+              </details>
+            </div>
+          </li>
+
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2025</span>
+              <span class="pub-badge badge-preprint">Preprint</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title">Lipschitz Constant Meets Condition Number: Learning Robust and Compact Deep Neural Networks</h3>
+              <p class="pub-authors">Y. Feng<sup>*</sup>, <span class="me">Shing Ho J. Lin</span><sup>*</sup>, B. Gao, X. Wei</p>
+              <p class="pub-note-line" data-i18n="pub.n5.note">Why over-pruned weight matrices become fragile: condition number as the missing half of the Lipschitz story.</p>
+              <p class="pub-impact" data-i18n-html="pub.n5.impact"><b class="imp-label">Follow-up</b> · attracted attention from ZTE's large-model division and is now being extended to robust on-device deployment.</p>
+              <div class="pub-links">
+                <a class="mini-link" href="https://arxiv.org/abs/2503.20454" target="_blank" rel="noopener">arXiv<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              </div>
+              <details class="pub-abs">
+                <summary data-i18n="abs.label">Abstract</summary>
+                <div><p>High compression of Deep Neural Networks, e.g., massive pruning of the weight matrix, leads to a severe drop in accuracy and susceptibility to adversarial attacks; a highly pruned weight matrix tends to be ill-conditioned, aggravating vulnerability to input noise. This work develops novel joint constraints, the Transformed Sparse Constraint joint with Condition Number Constraint (TSCNC), with smoothing distribution and differentiable constraint functions that reduce the condition number and avoid ill-conditionedness. Our theoretical analyses unveil the relevance between the condition number and the local Lipschitz constant: the sharply increasing condition number becomes the dominant factor restricting the robustness of over-sparsified models. Experiments show the proposed constraints significantly improve the robustness of DNNs at high pruning rates.</p></div>
+              </details>
+              <details class="pub-abs pub-bib">
+                <summary>BibTeX</summary>
+                <pre>@article{feng2025lipschitz,
+  title={Lipschitz Constant Meets Condition Number: Learning Robust and Compact Deep Neural Networks},
+  author={Feng, Y. and Lin, S.-H. J. and Gao, B. and Wei, X.},
+  journal={arXiv preprint arXiv:2503.20454},
+  year={2025}
+}</pre>
+              </details>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 03 WORKING PAPERS ============ -->
+    <section id="wp" class="section tab-panel">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-no">03</span>
+          <h2 data-i18n="wp.title">Working Papers</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <ol class="pub-list">
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2026</span>
+              <span class="pub-badge badge-preprint" data-i18n="wp.badge">Working Paper</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title">A Signed Excedance Enumerator of Derangements</h3>
+              <p class="pub-authors"><span class="me">Shing Ho J. Lin</span></p>
+              <p class="pub-note-line" data-i18n="wp.n1.note">The problem grew out of a determinant-evaluation exercise set by recitation TA Hongsheng Hu (now Associate Professor at Hunan University) in Linear Algebra II (lectured by Prof. Ming Fang of the Institute of Mathematics, CAS) in the spring semester of 2022, my freshman year; from it one spots that the counts of even and odd derangements always differ by (−1)ⁿ⁻¹(n−1). Starting from this classical identity, the work unifies its two refinements, by fixed points and by excedances, as two marginals of a single Toeplitz determinant, and carries the graded story through the type-B hyperoctahedral group, the Alon–Tarsi constant, and a semisimple subalgebra of the symmetric group algebra.</p>
+              <div class="pub-links">
+                <a class="mini-link" href="assets/src/DERANGEMENTS.pdf" target="_blank" rel="noopener">PDF<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 04 PROJECTS ============ -->
+    <section id="projects" class="section section-alt tab-panel">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-no">04</span>
+          <h2 data-i18n="projects.title">Projects</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <ol class="pub-list">
+          <li class="pub-card reveal">
+            <div class="pub-meta">
+              <span class="pub-year">2023</span>
+              <span class="pub-badge badge-journal" data-i18n="proj1.badge">Grant · Concluded</span>
+            </div>
+            <div class="pub-body">
+              <h3 class="pub-title" data-i18n="proj1.title">Qiyan Program, Beijing Natural Science Foundation (2023)</h3>
+              <div class="proj-facts">
+                <div><span class="fact-label" data-i18n="proj.fact.role">Role</span><span class="fact-value" data-i18n="proj1.role">Principal Investigator</span></div>
+                <div><span class="fact-label" data-i18n="proj.fact.amount">Funding</span><span class="fact-value">¥67,000</span></div>
+                <div><span class="fact-label" data-i18n="proj.fact.period">Period</span><span class="fact-value">2023.12–2025.04</span></div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 05 JOURNEY ============ -->
+    <section id="journey" class="section tab-panel">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-no">05</span>
+          <h2 data-i18n="journey.title">Experience &amp; Education</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <div class="journey-grid">
+          <div class="journey-col reveal">
+            <h3 class="journey-label"><span class="square" aria-hidden="true"></span><span data-i18n="journey.edu">Education</span></h3>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <span class="timeline-date">2025–2028</span>
+                <p class="timeline-role" data-i18n="edu1.role">M.Sc.Eng. in Control Science and Engineering (Pattern Recognition and Intelligent Systems)</p>
+                <p class="timeline-org" data-i18n-html="edu1.org">Tsinghua University · <a href="https://ivg.au.tsinghua.edu.cn/" target="_blank" rel="noopener">Intelligent Vision Group</a><br>Academic-track degree (MPhil-equivalent)<br>Co-supervised by Prof. Jie Zhou &amp; Prof. Jiwen Lu</p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-date" data-i18n="edu2.date">2024 · Spring</span>
+                <p class="timeline-role" data-i18n="edu2.role">Visiting Student, Department of CSE</p>
+                <p class="timeline-org" data-i18n="edu2.org">The Hong Kong University of Science and Technology</p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-date">2021–2025</span>
+                <p class="timeline-role" data-i18n="edu3.role">B.Eng. in Artificial Intelligence</p>
+                <p class="timeline-org" data-i18n-html="edu3.org">University of Chinese Academy of Sciences<br>Stage-1 advisor: <a href="https://www.ia.cas.cn/rcdw/jcqn/202404/t20240425_7131770.html" target="_blank" rel="noopener">Prof. Cheng-Lin Liu</a><br>Stage-2 advisor: Prof. Dong-Ming Yan</p>
+              </li>
+            </ul>
+          </div>
+          <div class="journey-col reveal" style="--d:.12s">
+            <h3 class="journey-label"><span class="square" aria-hidden="true"></span><span data-i18n="journey.exp">Experience</span></h3>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <span class="timeline-date">2023.12–2025.04</span>
+                <p class="timeline-role" data-i18n="exp1.role">Principal Investigator, Beijing NSF Qiyan Program</p>
+                <p class="timeline-org" data-i18n-html="exp1.org">Inaugural cohort<br>Hosted by the School of AI, UCAS and the State Key Laboratory of Multimodal AI Systems (MAIS), CAS<br>Worked closely with Prof. Xian Wei at ECNU<br>Concluded and passed final acceptance</p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-date">2024.08–2025.06</span>
+                <p class="timeline-role" data-i18n="exp3.role">Intern, State Key Lab of MAIS</p>
+                <p class="timeline-org" data-i18n-html="exp3.org">Institute of Automation, Chinese Academy of Sciences</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 HONORS ============ -->
+    <section id="honors" class="section section-alt tab-panel">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-no">06</span>
+          <h2 data-i18n="honors.title">Honors &amp; Awards</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <ol class="honor-list">
+          <li class="honor-item reveal">
+            <span class="honor-year">2025</span>
+            <div>
+              <p class="honor-title"><span data-i18n="h1.title">Excellent Bachelor's Thesis</span> <span class="honor-badge" data-i18n="h1.badge">Top &lt;10%</span></p>
+              <p class="honor-desc" data-i18n="h1.desc">University of Chinese Academy of Sciences, ranked 2 / 70. Defense committee chaired by Prof. Shiming Xiang, with Prof. Jing Dong on the committee.</p>
+            </div>
+          </li>
+          <li class="honor-item reveal">
+            <span class="honor-year">2024</span>
+            <div>
+              <p class="honor-title"><span data-i18n="h2.title">National 2nd Scholarship for HK, Macao &amp; Overseas Chinese Students</span> <span class="honor-badge" data-i18n="h2.badge">Highest Level</span></p>
+              <p class="honor-desc" data-i18n="h2.desc">Ministry of Education of the PRC, the first recipient in UCAS history.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 07 SERVICE & TALKS ============ -->
+    <section id="service" class="section tab-panel">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-no">07</span>
+          <h2 data-i18n="service.title">Service &amp; Talks</h2>
+          <div class="section-rule" aria-hidden="true"></div>
+        </header>
+        <div class="service-grid">
+          <div class="service-col reveal">
+            <h3 class="journey-label"><span class="square" aria-hidden="true"></span><span data-i18n="service.label">Service</span></h3>
+            <ul class="service-list">
+              <li data-i18n-html="sv1">Reviewer, <strong>ICCV 2025</strong></li>
+              <li data-i18n-html="sv2">Graduate Student Member, <strong>IEEE</strong> (2026–)</li>
+              <li data-i18n-html="sv3">Member, Undergraduate Admissions Committee for Jilin Province, <strong>UCAS</strong> (2025)</li>
+              <li data-i18n-html="sv4">Executive Member, Hong Kong Student Association Beijing (<strong>HKSABJ</strong>)</li>
+              <li data-i18n-html="sv5">Certified Mentor for Emergency Aid, Foundation of UCAS</li>
+              <li data-i18n-html="sv6">Student Member, IEEE · CAAI · CSIG</li>
+            </ul>
+          </div>
+          <div class="service-col reveal" style="--d:.12s">
+            <h3 class="journey-label"><span class="square" aria-hidden="true"></span><span data-i18n="talks.label">Talks</span></h3>
+            <article class="talk-card">
+              <span class="tag tag-conf" data-i18n="talk.tag">Invited</span>
+              <h4 class="talk-title" data-i18n="talk.title">Recent Advances of Geometric Deep Learning</h4>
+              <p class="talk-meta" data-i18n="talk.meta">Institute of Automation, CAS · Beijing · Dec 2024</p>
+              <p class="talk-desc" data-i18n="talk.desc">A review of recent advances in geometric deep learning, with a systematic summary of our group's works.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-left reveal">
+          <p class="footer-kicker"><span class="kicker-dot" aria-hidden="true"></span><span data-i18n="footer.kicker">Get in touch</span></p>
+          <p class="footer-title" data-i18n="footer.title">This Shing gives out no Huawei watches; currently accepting emails only.</p>
+          <p class="footer-note" data-i18n="footer.disclaimer">Similarity check passed: the only overlap with Prof. Shing-Tung Yau is "Shing" (5 characters), properly cited.</p>
+          <button class="chip chip-mail chip-footer" type="button" data-copy="linchenghao21@mails.ucas.ac.cn">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+            <span class="chip-text">linchenghao21 [at] mails.ucas.ac.cn</span><span class="chip-copied" data-i18n="chip.copied">Copied ✓</span>
+          </button>
+          <div class="footer-lang-block">
+            <p class="footer-lang-label" data-i18n="footer.langlabel">Languages</p>
+            <p class="footer-langs" data-i18n-html="footer.langs">中文 · 粵語 · 福州話 · English · Deutsch&nbsp;<span class="lang-level">(entry)</span></p>
+          </div>
+        </div>
+        <div class="footer-right reveal" style="--d:.1s">
+          <figure class="footer-art" aria-hidden="true">
+            <img src="images/yst_shjlin.jpg" alt="" loading="lazy" width="640" height="640">
+          </figure>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Shing Ho J. Lin</p>
+        <p class="footer-credit" data-i18n="footer.credit">Handcrafted with plain HTML &amp; CSS; no template harmed.</p>
+        <a class="footer-top-link" href="#top" data-i18n="footer.top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top" title="Back to top">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="assets/i18n.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
